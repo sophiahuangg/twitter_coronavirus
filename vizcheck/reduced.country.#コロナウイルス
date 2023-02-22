@@ -94,6 +94,4 @@ BD : 1
 Top 10= [('ES', 30), ('CH', 31), ('FR', 32), ('TH', 33), ('HK', 33), ('TW', 44), ('AU', 69), ('CN', 72), ('US', 479), ('JP', 12710)]
 Key= ['ES', 'CH', 'FR', 'TH', 'HK', 'TW', 'AU', 'CN', 'US', 'JP']
 Value= [30, 31, 32, 33, 33, 44, 69, 72, 479, 12710]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #コロナウイルス
 output_path_base= plots/reduced.country.#コロナウイルス

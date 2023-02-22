@@ -46,6 +46,4 @@ ckb : 1
 Top 10= [('zh', 151), ('in', 217), ('ja', 478), ('fr', 559), ('de', 885), ('es', 1065), ('und', 3087), ('th', 3229), ('pt', 3648), ('en', 15142)]
 Key= ['zh', 'in', 'ja', 'fr', 'de', 'es', 'und', 'th', 'pt', 'en']
 Value= [151, 217, 478, 559, 885, 1065, 3087, 3229, 3648, 15142]
-os.path.basename(args.input_path=) reduced.lang
-os.path.basename(args.key)= #flu
 output_path_base= plots/reduced.lang.#flu

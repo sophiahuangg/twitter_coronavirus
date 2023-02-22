@@ -142,6 +142,4 @@ AG : 1
 Top 10= [('BR', 594), ('PH', 614), ('AR', 628), ('MX', 655), ('ID', 956), ('CA', 1324), ('IN', 1794), ('ES', 1966), ('GB', 3446), ('US', 33953)]
 Key= ['BR', 'PH', 'AR', 'MX', 'ID', 'CA', 'IN', 'ES', 'GB', 'US']
 Value= [594, 614, 628, 655, 956, 1324, 1794, 1966, 3446, 33953]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #hospital
 output_path_base= plots/reduced.country.#hospital

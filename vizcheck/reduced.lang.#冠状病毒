@@ -23,6 +23,4 @@ ru : 1
 Top 10= [('ru', 1), ('es', 2), ('und', 5), ('en', 5), ('ja', 8), ('zh', 97)]
 Key= ['ru', 'es', 'und', 'en', 'ja', 'zh']
 Value= [1, 2, 5, 5, 8, 97]
-os.path.basename(args.input_path=) reduced.lang
-os.path.basename(args.key)= #冠状病毒
 output_path_base= plots/reduced.lang.#冠状病毒

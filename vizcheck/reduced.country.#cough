@@ -54,6 +54,4 @@ AE : 1
 Top 10= [('UG', 8), ('PH', 9), ('ZA', 10), ('IE', 14), ('NG', 15), ('AU', 24), ('CA', 44), ('IN', 59), ('GB', 165), ('US', 510)]
 Key= ['UG', 'PH', 'ZA', 'IE', 'NG', 'AU', 'CA', 'IN', 'GB', 'US']
 Value= [8, 9, 10, 14, 15, 24, 44, 59, 165, 510]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #cough
 output_path_base= plots/reduced.country.#cough

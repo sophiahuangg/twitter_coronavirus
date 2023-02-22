@@ -191,6 +191,4 @@ AQ : 1
 Top 10= [('ZA', 524), ('AR', 531), ('ES', 602), ('CA', 673), ('CO', 743), ('NG', 972), ('GB', 1428), ('MX', 1442), ('IN', 2593), ('US', 5049)]
 Key= ['ZA', 'AR', 'ES', 'CA', 'CO', 'NG', 'GB', 'MX', 'IN', 'US']
 Value= [524, 531, 602, 673, 743, 972, 1428, 1442, 2593, 5049]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #covid-19
 output_path_base= plots/reduced.country.#covid-19

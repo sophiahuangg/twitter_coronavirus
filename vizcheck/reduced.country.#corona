@@ -232,6 +232,4 @@ AQ : 1
 Top 10= [('NL', 30351), ('AR', 31965), ('IT', 40929), ('DE', 41121), ('BR', 41702), ('ES', 47660), ('TR', 57257), ('GB', 80275), ('IN', 157067), ('US', 265932)]
 Key= ['NL', 'AR', 'IT', 'DE', 'BR', 'ES', 'TR', 'GB', 'IN', 'US']
 Value= [30351, 31965, 40929, 41121, 41702, 47660, 57257, 80275, 157067, 265932]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #corona
 output_path_base= plots/reduced.country.#corona

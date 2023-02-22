@@ -44,6 +44,4 @@ bg : 1
 Top 10= [('pt', 28), ('de', 32), ('ja', 44), ('tl', 45), ('fr', 46), ('in', 54), ('hi', 58), ('es', 114), ('und', 1669), ('en', 6345)]
 Key= ['pt', 'de', 'ja', 'tl', 'fr', 'in', 'hi', 'es', 'und', 'en']
 Value= [28, 32, 44, 45, 46, 54, 58, 114, 1669, 6345]
-os.path.basename(args.input_path=) reduced.lang
-os.path.basename(args.key)= #sick
 output_path_base= plots/reduced.lang.#sick

@@ -229,6 +229,4 @@ AI : 1
 Top 10= [('TR', 22172), ('FR', 22562), ('MX', 24146), ('AR', 30992), ('BR', 31637), ('IT', 35668), ('ES', 36080), ('GB', 66803), ('IN', 89063), ('US', 225402)]
 Key= ['TR', 'FR', 'MX', 'AR', 'BR', 'IT', 'ES', 'GB', 'IN', 'US']
 Value= [22172, 22562, 24146, 30992, 31637, 35668, 36080, 66803, 89063, 225402]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #coronavirus
 output_path_base= plots/reduced.country.#coronavirus

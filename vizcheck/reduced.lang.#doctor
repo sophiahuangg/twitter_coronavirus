@@ -51,6 +51,4 @@ bg : 2
 Top 10= [('it', 136), ('tl', 156), ('tr', 177), ('fr', 238), ('in', 244), ('pt', 460), ('hi', 642), ('es', 2858), ('und', 5440), ('en', 31392)]
 Key= ['it', 'tl', 'tr', 'fr', 'in', 'pt', 'hi', 'es', 'und', 'en']
 Value= [136, 156, 177, 238, 244, 460, 642, 2858, 5440, 31392]
-os.path.basename(args.input_path=) reduced.lang
-os.path.basename(args.key)= #doctor
 output_path_base= plots/reduced.lang.#doctor

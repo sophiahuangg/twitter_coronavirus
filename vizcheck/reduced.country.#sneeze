@@ -40,6 +40,4 @@ AZ : 1
 Top 10= [('NL', 5), ('MY', 5), ('LS', 5), ('AU', 5), ('JP', 7), ('CA', 10), ('IN', 12), ('AE', 24), ('GB', 48), ('US', 140)]
 Key= ['NL', 'MY', 'LS', 'AU', 'JP', 'CA', 'IN', 'AE', 'GB', 'US']
 Value= [5, 5, 5, 5, 7, 10, 12, 24, 48, 140]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #sneeze
 output_path_base= plots/reduced.country.#sneeze

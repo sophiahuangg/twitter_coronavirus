@@ -65,8 +65,6 @@ except FileExistsError:
 # Create files in plots folder for each hashtag
 output_path_base = os.path.join(args.output_folder,os.path.basename(args.input_path) + '.' + os.path.basename(args.key))
 
-print("os.path.basename(args.input_path=)", os.path.basename(args.input_path))
-print("os.path.basename(args.key)=", os.path.basename(args.key))
 print("output_path_base=", output_path_base)
 
 

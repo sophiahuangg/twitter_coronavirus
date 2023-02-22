@@ -232,6 +232,4 @@ EH : 1
 Top 10= [('IT', 24677), ('NG', 26697), ('ZA', 27418), ('FR', 28629), ('MX', 36131), ('ES', 38559), ('CA', 50498), ('GB', 88178), ('IN', 88590), ('US', 283149)]
 Key= ['IT', 'NG', 'ZA', 'FR', 'MX', 'ES', 'CA', 'GB', 'IN', 'US']
 Value= [24677, 26697, 27418, 28629, 36131, 38559, 50498, 88178, 88590, 283149]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #covid19
 output_path_base= plots/reduced.country.#covid19

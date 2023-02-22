@@ -167,6 +167,4 @@ AQ : 1
 Top 10= [('CL', 860), ('FR', 880), ('ES', 1186), ('GB', 1193), ('IT', 1331), ('VE', 1364), ('IN', 2436), ('ID', 2502), ('US', 4783), ('BR', 7595)]
 Key= ['CL', 'FR', 'ES', 'GB', 'IT', 'VE', 'IN', 'ID', 'US', 'BR']
 Value= [860, 880, 1186, 1193, 1331, 1364, 2436, 2502, 4783, 7595]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #virus
 output_path_base= plots/reduced.country.#virus

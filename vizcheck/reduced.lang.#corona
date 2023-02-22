@@ -65,6 +65,4 @@ km : 1
 Top 10= [('nl', 29010), ('fr', 29547), ('it', 34171), ('hi', 34852), ('pt', 38299), ('de', 38518), ('tr', 48807), ('es', 148730), ('und', 151195), ('en', 529764)]
 Key= ['nl', 'fr', 'it', 'hi', 'pt', 'de', 'tr', 'es', 'und', 'en']
 Value= [29010, 29547, 34171, 34852, 38299, 38518, 48807, 148730, 151195, 529764]
-os.path.basename(args.input_path=) reduced.lang
-os.path.basename(args.key)= #corona
 output_path_base= plots/reduced.lang.#corona

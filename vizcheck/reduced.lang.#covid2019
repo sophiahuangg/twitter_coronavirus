@@ -62,6 +62,4 @@ hy : 1
 Top 10= [('in', 1151), ('de', 1156), ('pt', 1425), ('it', 3058), ('fr', 3079), ('hi', 3150), ('tr', 4111), ('es', 13407), ('und', 15566), ('en', 34250)]
 Key= ['in', 'de', 'pt', 'it', 'fr', 'hi', 'tr', 'es', 'und', 'en']
 Value= [1151, 1156, 1425, 3058, 3079, 3150, 4111, 13407, 15566, 34250]
-os.path.basename(args.input_path=) reduced.lang
-os.path.basename(args.key)= #covid2019
 output_path_base= plots/reduced.lang.#covid2019

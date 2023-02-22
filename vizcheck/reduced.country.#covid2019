@@ -207,6 +207,4 @@ AG : 1
 Top 10= [('FR', 3169), ('CL', 3170), ('PK', 3970), ('IT', 4069), ('ES', 4386), ('MX', 4637), ('TR', 5295), ('GB', 5300), ('US', 10152), ('IN', 16727)]
 Key= ['FR', 'CL', 'PK', 'IT', 'ES', 'MX', 'TR', 'GB', 'US', 'IN']
 Value= [3169, 3170, 3970, 4069, 4386, 4637, 5295, 5300, 10152, 16727]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #covid2019
 output_path_base= plots/reduced.country.#covid2019

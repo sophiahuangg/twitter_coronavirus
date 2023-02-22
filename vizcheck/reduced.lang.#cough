@@ -24,6 +24,4 @@ ca : 1
 Top 10= [('th', 2), ('nl', 3), ('ja', 3), ('de', 3), ('tl', 4), ('hi', 5), ('es', 6), ('in', 7), ('und', 167), ('en', 732)]
 Key= ['th', 'nl', 'ja', 'de', 'tl', 'hi', 'es', 'in', 'und', 'en']
 Value= [2, 3, 3, 3, 4, 5, 6, 7, 167, 732]
-os.path.basename(args.input_path=) reduced.lang
-os.path.basename(args.key)= #cough
 output_path_base= plots/reduced.lang.#cough

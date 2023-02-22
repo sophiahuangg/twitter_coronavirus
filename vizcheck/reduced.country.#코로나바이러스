@@ -47,6 +47,4 @@ AE : 1
 Top 10= [('KE', 2), ('AU', 2), ('UZ', 3), ('TW', 3), ('CA', 3), ('US', 4), ('CN', 4), ('ES', 5), ('HK', 6), ('KR', 284)]
 Key= ['KE', 'AU', 'UZ', 'TW', 'CA', 'US', 'CN', 'ES', 'HK', 'KR']
 Value= [2, 2, 3, 3, 3, 4, 4, 5, 6, 284]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #코로나바이러스
 output_path_base= plots/reduced.country.#코로나바이러스

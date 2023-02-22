@@ -131,6 +131,4 @@ AD : 1
 Top 10= [('JP', 58), ('PH', 61), ('ZA', 67), ('IE', 68), ('NG', 197), ('AU', 217), ('IN', 518), ('CA', 586), ('GB', 788), ('US', 5189)]
 Key= ['JP', 'PH', 'ZA', 'IE', 'NG', 'AU', 'IN', 'CA', 'GB', 'US']
 Value= [58, 61, 67, 68, 197, 217, 518, 586, 788, 5189]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #sick
 output_path_base= plots/reduced.country.#sick

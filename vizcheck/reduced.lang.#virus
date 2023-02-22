@@ -57,6 +57,4 @@ bg : 1
 Top 10= [('de', 360), ('tr', 553), ('nl', 752), ('fr', 898), ('it', 1030), ('in', 2249), ('es', 4932), ('pt', 5156), ('und', 6229), ('en', 8513)]
 Key= ['de', 'tr', 'nl', 'fr', 'it', 'in', 'es', 'pt', 'und', 'en']
 Value= [360, 553, 752, 898, 1030, 2249, 4932, 5156, 6229, 8513]
-os.path.basename(args.input_path=) reduced.lang
-os.path.basename(args.key)= #virus
 output_path_base= plots/reduced.lang.#virus

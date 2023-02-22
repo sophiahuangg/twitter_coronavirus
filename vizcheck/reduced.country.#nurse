@@ -140,6 +140,4 @@ AF : 1
 Top 10= [('SA', 182), ('IE', 275), ('AU', 275), ('ES', 277), ('NG', 309), ('PH', 411), ('CA', 861), ('IN', 1235), ('GB', 5533), ('US', 26856)]
 Key= ['SA', 'IE', 'AU', 'ES', 'NG', 'PH', 'CA', 'IN', 'GB', 'US']
 Value= [182, 275, 275, 277, 309, 411, 861, 1235, 5533, 26856]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #nurse
 output_path_base= plots/reduced.country.#nurse

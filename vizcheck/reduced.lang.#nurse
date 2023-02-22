@@ -51,6 +51,4 @@ dv : 1
 Top 10= [('de', 71), ('tr', 85), ('fr', 122), ('hi', 141), ('tl', 151), ('in', 179), ('pt', 180), ('es', 509), ('und', 2974), ('en', 33913)]
 Key= ['de', 'tr', 'fr', 'hi', 'tl', 'in', 'pt', 'es', 'und', 'en']
 Value= [71, 85, 122, 141, 151, 179, 180, 509, 2974, 33913]
-os.path.basename(args.input_path=) reduced.lang
-os.path.basename(args.key)= #nurse
 output_path_base= plots/reduced.lang.#nurse

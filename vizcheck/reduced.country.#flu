@@ -150,6 +150,4 @@ AZ : 1
 Top 10= [('ES', 320), ('JP', 484), ('FR', 745), ('IN', 790), ('CA', 977), ('DE', 1086), ('GB', 2215), ('TH', 3986), ('BR', 4006), ('US', 10076)]
 Key= ['ES', 'JP', 'FR', 'IN', 'CA', 'DE', 'GB', 'TH', 'BR', 'US']
 Value= [320, 484, 745, 790, 977, 1086, 2215, 3986, 4006, 10076]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #flu
 output_path_base= plots/reduced.country.#flu

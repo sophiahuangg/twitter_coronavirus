@@ -31,6 +31,4 @@ AR : 1
 Top 10= [('TW', 2), ('PH', 2), ('IN', 2), ('AE', 2), ('SG', 3), ('ES', 3), ('JP', 7), ('US', 23), ('CN', 25), ('YE', 45)]
 Key= ['TW', 'PH', 'IN', 'AE', 'SG', 'ES', 'JP', 'US', 'CN', 'YE']
 Value= [2, 2, 2, 2, 3, 3, 7, 23, 25, 45]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #冠状病毒
 output_path_base= plots/reduced.country.#冠状病毒

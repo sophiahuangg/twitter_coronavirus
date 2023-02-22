@@ -161,6 +161,4 @@ AQ : 1
 Top 10= [('ID', 324), ('AU', 424), ('PK', 513), ('BR', 553), ('ES', 628), ('CA', 698), ('MX', 1473), ('IN', 6281), ('GB', 10860), ('US', 16150)]
 Key= ['ID', 'AU', 'PK', 'BR', 'ES', 'CA', 'MX', 'IN', 'GB', 'US']
 Value= [324, 424, 513, 553, 628, 698, 1473, 6281, 10860, 16150]
-os.path.basename(args.input_path=) reduced.country
-os.path.basename(args.key)= #doctor
 output_path_base= plots/reduced.country.#doctor

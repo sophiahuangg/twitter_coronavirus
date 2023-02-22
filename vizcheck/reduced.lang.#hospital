@@ -49,6 +49,4 @@ ckb : 1
 Top 10= [('hi', 178), ('fr', 178), ('th', 266), ('tl', 271), ('ca', 271), ('pt', 589), ('in', 913), ('und', 2177), ('es', 3912), ('en', 41168)]
 Key= ['hi', 'fr', 'th', 'tl', 'ca', 'pt', 'in', 'und', 'es', 'en']
 Value= [178, 178, 266, 271, 271, 589, 913, 2177, 3912, 41168]
-os.path.basename(args.input_path=) reduced.lang
-os.path.basename(args.key)= #hospital
 output_path_base= plots/reduced.lang.#hospital
