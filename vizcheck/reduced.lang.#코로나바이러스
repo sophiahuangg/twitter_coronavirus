@@ -1,0 +1,13 @@
+ko : 288
+en : 15
+und : 10
+in : 5
+ja : 2
+tr : 1
+tl : 1
+fi : 1
+es : 1
+Top 10= [('tr', 1), ('tl', 1), ('fi', 1), ('es', 1), ('ja', 2), ('in', 5), ('und', 10), ('en', 15), ('ko', 288)]
+Key= ['tr', 'tl', 'fi', 'es', 'ja', 'in', 'und', 'en', 'ko']
+Value= [1, 1, 1, 1, 2, 5, 10, 15, 288]
+output_path_base= plots/reduced.lang.#코로나바이러스

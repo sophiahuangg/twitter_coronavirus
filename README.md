@@ -172,7 +172,7 @@ These are four of the png images that were generated. They analyze the usage of 
 ![Country #코로나바이러스](https://raw.githubusercontent.com/sophiahuangg/twitter_coronavirus/master/plots/reduced.country.%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4.png)
 ![Language #코로나바이러스](https://raw.githubusercontent.com/sophiahuangg/twitter_coronavirus/master/plots/reduced.lang.%23%EC%BD%94%EB%A1%9C%EB%82%98%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4.png)
 
-`#코로나바이러` was used most frequently in Korea, and the most common language it was tweeted in was Korean.
+`#코로나바이러스` was used most frequently in Korea, and the most common language it was tweeted in was Korean.
 
 ## Submission
 
