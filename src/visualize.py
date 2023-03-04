@@ -16,12 +16,14 @@ import os
 import json
 from collections import Counter,defaultdict
 import matplotlib.pyplot as plt
-import matplotlib.font_manager as fm
+from matplotlib.font_manager import FontProperties
 
 # matplotlib fonts
-plt.rcParams['font.family'] = ['sans-serif', 'Noto Sans CJK', 'Droid Sans Fallback'] 
 
+font_path = ['twitter_coronavirus/NotoSansTC-Regular.otf', 'twitter_coronavirus/NotoSansKR-Regular.otf', 'twitter_coronavirus/NotoSansJP-Regular.otf']
 
+for path in font_paths:
+    font = fm.FontProperties(fname=path)
 
 # open the input path
 with open(args.input_path) as f:
