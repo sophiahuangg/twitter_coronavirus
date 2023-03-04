@@ -1,0 +1,16 @@
+findfont: Font family ['Noto Sans TC'] not found. Falling back to DejaVu Sans.
+findfont: Font family ['Noto Sans TC'] not found. Falling back to DejaVu Sans.
+IN : 5
+IT : 4
+GT : 4
+ZA : 2
+US : 2
+SA : 2
+CN : 2
+TH : 1
+EC : 1
+BR : 1
+Top 10= [('TH', 1), ('EC', 1), ('BR', 1), ('ZA', 2), ('US', 2), ('SA', 2), ('CN', 2), ('IT', 4), ('GT', 4), ('IN', 5)]
+Key= ['TH', 'EC', 'BR', 'ZA', 'US', 'SA', 'CN', 'IT', 'GT', 'IN']
+Value= [1, 1, 1, 2, 2, 2, 2, 4, 4, 5]
+output_path_base= plots/reduced.country.#covid-2019

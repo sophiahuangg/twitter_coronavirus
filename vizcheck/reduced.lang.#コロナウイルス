@@ -14,3 +14,39 @@ findfont: Font family ['Noto Sans TC'] not found. Falling back to DejaVu Sans.
 /home/Sophia.Huang.24/.local/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py:238: RuntimeWarning: Glyph 12473 missing from current font.
   font.set_text(s, 0.0, flags=flags)
 findfont: Font family ['Noto Sans TC'] not found. Falling back to DejaVu Sans.
+/home/Sophia.Huang.24/.local/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py:201: RuntimeWarning: Glyph 12467 missing from current font.
+  font.set_text(s, 0, flags=flags)
+/home/Sophia.Huang.24/.local/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py:201: RuntimeWarning: Glyph 12525 missing from current font.
+  font.set_text(s, 0, flags=flags)
+/home/Sophia.Huang.24/.local/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py:201: RuntimeWarning: Glyph 12490 missing from current font.
+  font.set_text(s, 0, flags=flags)
+/home/Sophia.Huang.24/.local/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py:201: RuntimeWarning: Glyph 12454 missing from current font.
+  font.set_text(s, 0, flags=flags)
+/home/Sophia.Huang.24/.local/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py:201: RuntimeWarning: Glyph 12452 missing from current font.
+  font.set_text(s, 0, flags=flags)
+/home/Sophia.Huang.24/.local/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py:201: RuntimeWarning: Glyph 12523 missing from current font.
+  font.set_text(s, 0, flags=flags)
+/home/Sophia.Huang.24/.local/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py:201: RuntimeWarning: Glyph 12473 missing from current font.
+  font.set_text(s, 0, flags=flags)
+ja : 13276
+und : 487
+en : 68
+zh : 20
+et : 8
+ko : 7
+in : 7
+pt : 5
+hu : 3
+es : 3
+tl : 2
+fi : 2
+eu : 2
+ta : 1
+ro : 1
+lt : 1
+cs : 1
+ar : 1
+Top 10= [('hu', 3), ('es', 3), ('pt', 5), ('ko', 7), ('in', 7), ('et', 8), ('zh', 20), ('en', 68), ('und', 487), ('ja', 13276)]
+Key= ['hu', 'es', 'pt', 'ko', 'in', 'et', 'zh', 'en', 'und', 'ja']
+Value= [3, 3, 5, 7, 7, 8, 20, 68, 487, 13276]
+output_path_base= plots/reduced.lang.#コロナウイルス
