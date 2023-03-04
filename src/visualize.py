@@ -57,7 +57,7 @@ plt.bar(key, value, color = 'maroon', width = 0.5)
 if args.input_path == "reduced.country":
     plt.xlabel("Country")
     plt.ylabel("Num")
-    plt.title("Usage of " + args.key + " in Countries (Testing)")
+    plt.title("Usage of " + args.key + " in Countries")
 else:
     plt.xlabel("Language")
     plt.ylabel("Num")
