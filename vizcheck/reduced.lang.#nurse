@@ -1,5 +1,7 @@
-findfont: Font family ['Noto Sans TC'] not found. Falling back to DejaVu Sans.
-findfont: Font family ['Noto Sans TC'] not found. Falling back to DejaVu Sans.
+Matplotlib is building the font cache; this may take a moment.
+Matplotlib is building the font cache; this may take a moment.
+findfont: Font family ['Noto Sans TC', 'Noto Sans KR', 'Noto Sans JP'] not found. Falling back to DejaVu Sans.
+findfont: Font family ['Noto Sans TC', 'Noto Sans KR', 'Noto Sans JP'] not found. Falling back to DejaVu Sans.
 en : 33913
 und : 2974
 es : 509

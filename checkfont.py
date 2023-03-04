@@ -1,17 +1,15 @@
-import matplotlib
-import matplotlib.font_manager as fm
 import matplotlib.pyplot as plt
+from matplotlib.font_manager import FontProperties
 
-font_path = '/home/Sophia.Huang.24/twitter_coronavirus/NotoSansTC-Regular.otf'
-font_family = 'Noto Sans TC'
+font = '/home/Sophia.Huang.24/twitter_coronavirus/NotoSansJP-Regular.otf'
+font_prop = FontProperties(fname=font)
 
-if fm.findfont(font_family) is None:
-    print(f'Font family {font_family} is not installed.')
-else:
-    print(f'Font family {font_family} is installed.')
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
 
-font = plt.matplotlib.font_manager.FontProperties(fname='NotoSansTC-Regular.otf')
-font.set_family('Noto Sans TC')
 
-# Print the font family
-print(font.get_family())
+plt.plot(x, y)
+plt.xlabel("日本語 X 軸ラベル", fontproperties=font_prop)
+plt.ylabel("日本語 Y 軸ラベル", fontproperties=font_prop)
+plt.title("日本語タイトル", fontproperties=font_prop)
+plt.savefig('test.png')
