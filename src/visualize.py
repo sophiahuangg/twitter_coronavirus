@@ -25,6 +25,8 @@ font_paths = ['twitter_coronavirus/NotoSansTC-Regular.otf', 'twitter_coronavirus
 for path in font_paths:
     font = FontProperties(fname=path)
 
+plt.rcParams['font.family'] = 'Noto Sans TC'
+
 # open the input path
 with open(args.input_path) as f:
     counts = json.load(f)
