@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "./src/visualize.py", line 25, in <module>
-    for path in font_paths:
-NameError: name 'font_paths' is not defined
