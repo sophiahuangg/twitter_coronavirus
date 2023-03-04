@@ -16,6 +16,12 @@ import os
 import json
 from collections import Counter,defaultdict
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
+
+# matplotlib fonts
+plt.rcParams['font.family'] = ['sans-serif', 'Noto Sans CJK', 'DejaVu Sans'] 
+
+
 
 # open the input path
 with open(args.input_path) as f:
