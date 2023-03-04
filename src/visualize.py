@@ -23,7 +23,7 @@ from matplotlib.font_manager import FontProperties
 font_paths = ['twitter_coronavirus/NotoSansTC-Regular.otf', 'twitter_coronavirus/NotoSansKR-Regular.otf', 'twitter_coronavirus/NotoSansJP-Regular.otf']
 
 for path in font_paths:
-    font = fm.FontProperties(fname=path)
+    font = FontProperties(fname=path)
 
 # open the input path
 with open(args.input_path) as f:

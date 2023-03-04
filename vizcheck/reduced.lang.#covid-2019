@@ -1,4 +1,11 @@
-Traceback (most recent call last):
-  File "./src/visualize.py", line 26, in <module>
-    font = fm.FontProperties(fname=path)
-NameError: name 'fm' is not defined
+en : 11
+es : 5
+it : 4
+th : 1
+ta : 1
+pt : 1
+hi : 1
+Top 10= [('th', 1), ('ta', 1), ('pt', 1), ('hi', 1), ('it', 4), ('es', 5), ('en', 11)]
+Key= ['th', 'ta', 'pt', 'hi', 'it', 'es', 'en']
+Value= [1, 1, 1, 1, 4, 5, 11]
+output_path_base= plots/reduced.lang.#covid-2019
