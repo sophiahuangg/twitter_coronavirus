@@ -17,21 +17,14 @@ import json
 from collections import Counter,defaultdict
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
-import matplotlib.font_manager as fm
-from matplotlib import font_manager
-font_manager._rebuild()
-
-font_manager = fm.FontManager()
-
 
 # matplotlib fonts
 
 font_paths = ['/home/Sophia.Huang.24/twitter_coronavirus/NotoSansTC-Regular.otf', '/home/Sophia.Huang.24/twitter_coronavirus/NotoSansKR-Regular.otf', '/home/Sophia.Huang.24/twitter_coronavirus/NotoSansJP-Regular.otf']
 
+properties = []
 for path in font_paths:
-    fm.fontManager.addfont(path)
-
-plt.rcParams['font.family'] = ['Noto Sans TC', 'Noto Sans KR', 'Noto Sans JP']
+    properties.append(FontProperties(fname=path))
 
 # open the input path
 with open(args.input_path) as f:
@@ -63,11 +56,30 @@ print("Value=", value)
 
 plt.bar(key, value, color = 'maroon', width = 0.5)
 
+
+# Checking Language
+
+if "コロナウイルス" in os.path.basename(args.key):
+    language = "Japanese"
+elif "冠状病毒" in os.path.basename(args.key):
+    language = "Chinese"
+elif "코로나바이러" in os.path.basename(args.key):
+    language = "Korean"
+else:
+    language = "English"
+
 # Depending on whether the input path is for countries or languages, decide what to name x axis and title of plot
 if args.input_path == "reduced.country":
     plt.xlabel("Country")
     plt.ylabel("Num")
-    plt.title("Usage of " + args.key + " in Countries")
+    if language == "English":
+        plt.title("Usage of " + args.key + " in Countries")
+    elif language == "Japanese":
+        plt.title("Usage of " + args.key + " in Countries", fontproperties=properties[2])
+    elif language == "Korean":
+        plt.title("Usage of " + args.key + " in Countries", fontproperties=properties[1])
+    else:
+        plt.title("Usage of " + args.key + " in Countries", fontproperties=properties[0])
 else:
     plt.xlabel("Language")
     plt.ylabel("Num")
