@@ -59,11 +59,11 @@ plt.bar(key, value, color = 'maroon', width = 0.5)
 
 # Checking Language
 
-if "コロナウイルス" in os.path.basename(args.key):
+if "コロナウイルス" in args.key:
     language = "Japanese"
-elif "冠状病毒" in os.path.basename(args.key):
+elif "冠状病毒" in args.key:
     language = "Chinese"
-elif "코로나바이러" in os.path.basename(args.key):
+elif "코로나바이러" in args.key:
     language = "Korean"
 else:
     language = "English"
@@ -83,7 +83,14 @@ if args.input_path == "reduced.country":
 else:
     plt.xlabel("Language")
     plt.ylabel("Num")
-    plt.title("Usage of " + args.key + " in Languages")
+    if language == "English":
+        plt.title("Usage of " + args.key + " in Languages")
+    elif language == "Japanese":
+        plt.title("Usage of " + args.key + " in Languages", fontproperties=properties[2])
+    elif language == "Korean":
+        plt.title("Usage of " + args.key + " in Languages", fontproperties=properties[1])
+    else:
+        plt.title("Usage of " + args.key + " in Languages", fontproperties=properties[0])
 
 try:
     os.makedirs(args.output_folder)
