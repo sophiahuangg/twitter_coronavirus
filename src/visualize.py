@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
 # matplotlib fonts
-plt.rcParams['font.family'] = ['sans-serif', 'Noto Sans CJK', 'DejaVu Sans'] 
+plt.rcParams['font.family'] = ['sans-serif', 'Noto Sans CJK', 'Droid Sans Fallback'] 
 
 
 
