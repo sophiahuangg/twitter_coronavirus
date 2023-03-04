@@ -63,7 +63,7 @@ if "コロナウイルス" in args.key:
     language = "Japanese"
 elif "冠状病毒" in args.key:
     language = "Chinese"
-elif "코로나바이러" in args.key:
+elif "코로나바이러스" in args.key:
     language = "Korean"
 else:
     language = "English"
